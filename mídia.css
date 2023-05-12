@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*  DEVICES BREAKPOINTS
+    Telas pequenas: até 600px
+    Celulares: 600px até 768px
+    Tablets: 768px até 992px
+    Notebooks: 992px até 1200px
+    Grandes telas: Acima de 1200px
+*/
+
+/* Tamanho de Tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section.coluna{
+        flex: 1 1 50%;
+    }
+}
+
+/* Tamanho de Notebooks*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    section.coluna {
+        flex: 1 1 25%;
+    }
+}
+
+/* Tamanho de Celulares*/
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    section.coluna{
+        flex: 1 1 50%;
+    }
+}
+/* Tamanho de Grandes Telas*/
+@media screen and (min-width: 1200px){
+    section.coluna{
+        flex: 1 1 25%;
+    }
+}
+
+
+
